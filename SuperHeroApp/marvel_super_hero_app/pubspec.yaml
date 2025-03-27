@@ -1,0 +1,38 @@
+name: marvel_super_hero_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/superheroes/ant.webp
+    - assets/images/superheroes/black.jpg
+    - assets/images/superheroes/captain.jpg
+    - assets/images/superheroes/doctor.jpeg
+    - assets/images/superheroes/hulk.webp
+    - assets/images/superheroes/iron.jpg
+    - assets/images/superheroes/panther.webp
+    - assets/images/superheroes/scarlet.webp
+    - assets/images/superheroes/spider.webp
+    - assets/images/superheroes/thor.jpeg
+    - assets/images/superheroes/nick.webp
